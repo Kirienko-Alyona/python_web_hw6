@@ -1,5 +1,6 @@
-from psycopg2 import connect, Error
 from contextlib import contextmanager
+
+from psycopg2 import connect, Error
 
 
 @contextmanager
